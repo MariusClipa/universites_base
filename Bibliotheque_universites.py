@@ -19,7 +19,7 @@ class BibliothequeUniversite :
             if universite.name == name:
                 to_update_universite = universite
                 to_update_universite.update_nota(notaToUpdate)
-                print(f"La note de l'Universite a ete actualise")
+                print(f"La note de l'université a été actualisée")
             else:
                 to_update_universite = None
-                print(f"erreur")
+                print(f"Erreur : université non trouvée")
